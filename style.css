@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+@keyframes content {
+    from{
+        transform: translateX(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+@keyframes content {
+    from{
+        transform: translateX(20px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.main{
+    background-color: hsl(275, 100%, 97%);
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/background-pattern-desktop.svg);
+}
+.content{
+    box-shadow: 0 1px 15px;
+    border-radius:10px ;
+    height: 70%;
+    background-color: hsl(0, 0%, 100%);
+    width: 40%;
+    position: absolute;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+.content:hover{
+    animation-name: content;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+.one{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.imgh1{
+    display: flex;
+    height: 80px;
+    align-items: center;
+
+}
+img{
+    padding-left: 10px;
+}
+h1{
+    padding-left: 20px;
+    font-size: 50px;
+}
+.h3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.h3 a{
+    align-items: center;
+}
+.p{
+    width: 100%;
+    font-size: 15px;
+    align-self: center;
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
+.two{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-evenly;
+}
+hr{
+    align-self: normal;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    font-size: 15px;
+}
